@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DamageCollider : MonoBehaviour {
 
-    public float DamageValue = 2f;
+    public float DamageValue = 10f;
     public string TargetTag = "Player";
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -17,6 +17,7 @@ public class DamageCollider : MonoBehaviour {
                 PlayerController pc = rb.GetComponent<PlayerController>();
                 if(pc != null && pc.currentSpeed > pc.maxSpeed/2)
                 {
+                    Debug.Log("Crash");
                     pc.takeDamage(DamageValue);
                 }
             }
