@@ -305,22 +305,9 @@
   <ItemGroup>
     <Compile Include="Assets\Assets\Scripts\DamageCollider.cs" />
     <Compile Include="Assets\Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\CharacterFinal.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\CharacterStart.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\FlipIt.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\FlyingBird.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\Guncarl.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\Pickup.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\PlayerControl.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\Respawn.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\Rocket.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\SetParticleSortingLayer.cs" />
-    <Compile Include="Assets\UnitySunnyvale\Scripts\Test.cs" />
-    <Compile Include="Assets\Workshop 6\Script\DoorController.cs" />
-    <Compile Include="Assets\Workshop 6\Script\RunnerController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
